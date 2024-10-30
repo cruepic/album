@@ -1,0 +1,66 @@
+body   {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #edeef0;
+    padding: 0 70px;
+}
+
+h1 {
+    color: #5B1865;
+}
+
+h2  {
+    color: #2C5784;
+}
+
+h3  {
+    color: #5688C7;
+}
+
+img {
+    width: 15em;
+    height: fit-content;
+    border-radius: 5%;
+}
+
+ol  {
+    padding-left: 2em;
+}
+
+li  {
+    padding-left: 2vmax;
+    font-size: larger;
+    color: gray;
+}
+
+.autres-albums {
+    list-style: none;
+    display: flex;
+}
+
+ul  {
+    max-width: fit-content;
+}
+
+li p {
+    font-size: medium;
+    color: #470024;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+#cover img{
+    width: 70%;
+}
+
+#autres {
+    justify-content: center;
+}
+
+#autres img:hover  {
+    opacity: 0.5;
+}
